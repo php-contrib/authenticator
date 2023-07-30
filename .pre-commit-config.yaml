@@ -23,14 +23,5 @@ repos:
     exclude: (examples|test|\.phan)
     files: \.(php)$
     id: php-cs
-  - id: php-unit
-  - exclude: (examples|test)
-    files: \.(php)$
-    id: php-stan
   repo: https://github.com/digitalpulp/pre-commit-php.git
   rev: 1.4.0
-- hooks:
-  - exclude: (examples|test)
-    id: phpmd
-  repo: https://gitlab.com/daverona/pre-commit/php
-  rev: 0.6.0
