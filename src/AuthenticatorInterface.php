@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Phpolar\Authenticator;
+namespace PhpContrib\Authenticator;
 
 /**
  * Has the ability to determine
