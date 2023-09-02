@@ -1,1 +1,3 @@
 # Authenticator
+
+Supports authentication interoperability
